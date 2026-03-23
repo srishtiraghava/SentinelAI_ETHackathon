@@ -1,0 +1,69 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/srishtiraghava/SentinelAI_ETHackathon/blob/main/portfolio.json\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import json\n",
+        "\n",
+        "# This mock data allows your Risk Strategist to perform the \"Portfolio X-Ray\"\n",
+        "portfolio_data = {\n",
+        "    \"investor_name\": \"Retail Alpha User\",\n",
+        "    \"holdings\": [\n",
+        "        {\"scheme_code\": \"118989\", \"units\": 500, \"purchase_date\": \"2025-01-01\", \"avg_nav\": 185.50},\n",
+        "        {\"scheme_code\": \"102885\", \"units\": 250, \"purchase_date\": \"2025-02-15\", \"avg_nav\": 420.10}\n",
+        "    ],\n",
+        "    \"goals\": {\"retirement_age\": 60, \"target_corpus\": 50000000}\n",
+        "}\n",
+        "\n",
+        "with open('portfolio.json', 'w') as f:\n",
+        "    json.dump(portfolio_data, f)\n",
+        "print(\"✅ portfolio.json created. Your agent is now ready for deep analysis.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FujHi24flYFs",
+        "outputId": "9f225911-98b3-49af-93ed-cef8f31e7765"
+      },
+      "execution_count": 35,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "✅ portfolio.json created. Your agent is now ready for deep analysis.\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "accelerator": "GPU",
+    "colab": {
+      "gpuType": "T4",
+      "provenance": [],
+      "authorship_tag": "ABX9TyNo4z9ADo9DYH0n+bZMQDIM",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
