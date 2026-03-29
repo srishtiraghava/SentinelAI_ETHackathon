@@ -1,7 +1,3 @@
-Gemini said
-A high-quality README.md is your "sales pitch" to the judges. For the ET Gen AI Hackathon, it accounts for a significant portion of your "Documentation & Presentation Quality" score.
-
-Since you are a solo student, your README must show that you have built a production-ready agentic system, not just a simple script. Here is a professional template you can use.
 
 Sentinel AI: Proactive Agentic Research Desk for the Indian Investor
 Sentinel AI is an autonomous multi-agent system designed to help India's 14 crore+ retail investors move from "reacting to tips" to making data-backed, institutional-grade decisions. Unlike standard financial chatbots that simply summarize data, Sentinel AI acts as an Organizational Brain, proactively hunting for "Alpha" signals and performing deep portfolio risk analysis.
@@ -73,6 +69,4 @@ Multi-Modal Delivery: Capable of generating visual data summaries and structured
 
 
 
-Live Demo (Colab): [Link to Colab Notebook with "Open in Colab" badge]
-
-Team: (Individual Participant)
+Team: Mighty Fighters
