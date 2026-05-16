@@ -1,3 +1,4 @@
+Deployment link:https://sentinel-ibhp.onrender.com/
 
 Sentinel AI: Proactive Agentic Research Desk for the Indian Investor
 Sentinel AI is an autonomous multi-agent system designed to help India's 14 crore+ retail investors move from "reacting to tips" to making data-backed, institutional-grade decisions. Unlike standard financial chatbots that simply summarize data, Sentinel AI acts as an Organizational Brain, proactively hunting for "Alpha" signals and performing deep portfolio risk analysis.
